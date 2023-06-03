@@ -1,0 +1,63 @@
+
+body{
+background-color: rgb(251, 255, 220);
+}
+.gradient-background1{
+    background-color:rgb(208, 245, 190);
+}
+.gradient-background2{
+    background-color:rgb(152, 238, 204);
+}
+.list-expereince{
+list-style: none;
+}
+.gradient-background3{
+    background-color:rgb(208, 245, 190);
+}
+
+*{  color: black;
+    font-family: sans-serif;
+    text-align: left
+    
+}
+  .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+      gap: 20px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .box {
+      color: white;
+      padding: 20px;
+      font-size: 24px;
+      border-radius: 10px;
+    }
+
+    h2{
+        font-size: 25px;
+        color: black;
+        
+    }
+    h1{
+        color: black;
+        font-size: 45px;
+        
+    }
+
+     h3{ color: black;
+        font-size: 20px;
+       
+     }
+    h4{ color: black;
+        font-size: 18px;
+    }
+  p{ color: black;
+    font-size: 15px;
+  }
+  li,ul{ color: black;
+    padding-left: 0;
+    margin-left: 0;
+    font-size: 15px;
+  }
